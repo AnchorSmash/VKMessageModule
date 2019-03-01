@@ -1,0 +1,60 @@
+# Characters count in single line
+line_length: 1000
+
+# Lines count in sigle file
+file_length:
+    warning: 500
+    error: 1500
+
+# Parameters count in function
+function_parameter_count:
+    warning: 10
+    error: 15
+
+# Type rules
+type_name:
+    excluded:
+    - T
+
+# Nesting rules
+nesting:
+    type_level:
+        warning: 2
+    statement_level:
+        warning: 10
+
+# Identifier (variable) rules
+identifier_name:
+    excluded:
+    - id
+    - to
+    - el
+    - URL
+    - lhs
+    - rhs
+    - db
+    - T
+    - ok
+    - at
+    - vc
+
+# Disabled rules
+disabled_rules:
+- force_cast
+- vertical_whitespace
+- todo
+
+# Opt-in rules
+opt_in_rules:
+- private_action
+- private_outlet
+- file_name
+
+# Excluded files from SwiftLint
+excluded:
+- Pods
+- Source/Pods
+
+# Ignore switch statement when calculate complexity
+cyclomatic_complexity:
+  ignores_case_statements: true
