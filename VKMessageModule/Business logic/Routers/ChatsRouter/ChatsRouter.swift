@@ -13,8 +13,8 @@ enum ChatsRoute {
 }
 
 protocol ChatsRouter {
+    var rootViewController: UIViewController { get }
 
-    func getConfiguredRootViewController() -> UIViewController
     func route(to route: ChatsRoute)
 
 }
