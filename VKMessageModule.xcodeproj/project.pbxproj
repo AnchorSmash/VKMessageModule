@@ -26,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30FF4CF37772E956BC85390C /* Pods-VKMessageModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKMessageModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule.release.xcconfig"; sourceTree = "<group>"; };
 		77051203B9AA4D9DA749DA39 /* Pods_VKMessageModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKMessageModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7824C8EB2229574C00D862DE /* VKMessageModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKMessageModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7824C8EE2229574C00D862DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		787FDB2B222ABBB40010F3CF /* ChatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewModel.swift; sourceTree = "<group>"; };
 		787FDB2D222ABC7A0010F3CF /* BaseChatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseChatsViewModel.swift; sourceTree = "<group>"; };
 		80B18A0C0E0B1EA754682ABF /* Pods-VKMessageModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKMessageModule.release.xcconfig"; path = "Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule.release.xcconfig"; sourceTree = "<group>"; };
+		AE7BAD440A43BF913B8955CE /* Pods-VKMessageModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKMessageModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule.debug.xcconfig"; sourceTree = "<group>"; };
 		D7D76CB0B8DE17BB2D472EBF /* Pods-VKMessageModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKMessageModule.debug.xcconfig"; path = "Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,6 +204,8 @@
 			children = (
 				D7D76CB0B8DE17BB2D472EBF /* Pods-VKMessageModule.debug.xcconfig */,
 				80B18A0C0E0B1EA754682ABF /* Pods-VKMessageModule.release.xcconfig */,
+				AE7BAD440A43BF913B8955CE /* Pods-VKMessageModule.debug.xcconfig */,
+				30FF4CF37772E956BC85390C /* Pods-VKMessageModule.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -302,7 +306,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -313,7 +317,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D17B24A119C91BCE042DC07B /* [CP] Check Pods Manifest.lock */ = {

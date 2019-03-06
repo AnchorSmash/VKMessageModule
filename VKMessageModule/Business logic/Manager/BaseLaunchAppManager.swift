@@ -18,7 +18,7 @@ final class BaseLaunchAppManager: LaunchAppManager {
 
     func generateWindow() -> UIWindow {
         let window = UIWindow()
-        window.rootViewController = rootRouter.getConfiguredRootViewController()
+        window.rootViewController = rootRouter.rootViewController
         window.makeKeyAndVisible()
         return window
     }

@@ -12,13 +12,12 @@ import Swinject
 final class BaseChatsRouter: ChatsRouter {
 
     private let resolver: Resolver
+    var rootViewController: UIViewController {
+        return UIViewController()
+    }
 
     init(resolver: Resolver) {
         self.resolver = resolver
-    }
-
-    func getConfiguredRootViewController() -> UIViewController {
-        return UIViewController()
     }
 
     func route(to route: ChatsRoute) {
