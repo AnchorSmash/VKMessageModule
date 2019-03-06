@@ -10,11 +10,11 @@ import UIKit
 
 final class App {
 
-    private var window: UIWindow?
-    private var launchAppManager = ApplicationAssembly.resolver.resolve(LaunchAppManager.self)!
 
-    func launchApplication() {
-        window = launchAppManager.generateWindow()
+    private var launchAppManager = ApplicationAssembly.resolver.resolve(ILaunchAppManager.self)!
+
+    func launchApplication(in window: UIWindow) {
+        launchAppManager.launch(in: window)
     }
 
 }

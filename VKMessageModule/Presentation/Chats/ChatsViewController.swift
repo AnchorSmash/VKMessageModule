@@ -9,4 +9,11 @@
 import UIKit
 
 final class ChatsViewController: UIViewController {
+
+    // MARK: - Properties
+
+    // MARK: Public
+
+    var viewModel: ChatsViewModel!
+
 }

@@ -6,5 +6,7 @@
 //  Copyright © 2019 Igor. All rights reserved.
 //
 
-protocol ChatsViewModel: class {
+import Foundation
+
+final class ChatsViewModel: IChatsViewModel {
 }

@@ -7,44 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781268DF223021A900DE91B4 /* UIViewController+StoryboardID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781268DE223021A900DE91B4 /* UIViewController+StoryboardID.swift */; };
+		781268E1223021D100DE91B4 /* StoryboardName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781268E0223021D100DE91B4 /* StoryboardName.swift */; };
+		781268E5223022F700DE91B4 /* IChatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781268E4223022F700DE91B4 /* IChatsService.swift */; };
+		781268E72230232D00DE91B4 /* ServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781268E62230232D00DE91B4 /* ServiceAssembly.swift */; };
+		781268E92230235900DE91B4 /* ChatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781268E82230235900DE91B4 /* ChatsService.swift */; };
 		7824C8EF2229574C00D862DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C8EE2229574C00D862DE /* AppDelegate.swift */; };
 		7824C8F62229574D00D862DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7824C8F52229574D00D862DE /* Assets.xcassets */; };
 		7824C8F92229574D00D862DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7824C8F72229574D00D862DE /* LaunchScreen.storyboard */; };
 		7824C90822295D6C00D862DE /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C90722295D6C00D862DE /* App.swift */; };
-		7824C90A22295F3700D862DE /* LaunchAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C90922295F3700D862DE /* LaunchAppManager.swift */; };
-		7824C90C22295F4B00D862DE /* BaseLaunchAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C90B22295F4B00D862DE /* BaseLaunchAppManager.swift */; };
-		7824C9102229602100D862DE /* ChatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C90F2229602100D862DE /* ChatsRouter.swift */; };
-		7824C9122229602E00D862DE /* BaseChatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C9112229602E00D862DE /* BaseChatsRouter.swift */; };
+		7824C90A22295F3700D862DE /* ILaunchAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C90922295F3700D862DE /* ILaunchAppManager.swift */; };
+		7824C90C22295F4B00D862DE /* LaunchAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C90B22295F4B00D862DE /* LaunchAppManager.swift */; };
+		7824C9102229602100D862DE /* IChatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C90F2229602100D862DE /* IChatsRouter.swift */; };
+		7824C9122229602E00D862DE /* ChatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C9112229602E00D862DE /* ChatsRouter.swift */; };
 		7824C9172229666000D862DE /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C9162229666000D862DE /* ApplicationAssembly.swift */; };
 		7824C9192229687100D862DE /* ManagerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C9182229687100D862DE /* ManagerAssembly.swift */; };
 		7824C91B222968E000D862DE /* RouterAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C91A222968E000D862DE /* RouterAssembly.swift */; };
 		787FDB26222ABB1C0010F3CF /* Chats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787FDB25222ABB1C0010F3CF /* Chats.storyboard */; };
 		787FDB28222ABB410010F3CF /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FDB27222ABB410010F3CF /* ChatsViewController.swift */; };
-		787FDB2C222ABBB40010F3CF /* ChatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FDB2B222ABBB40010F3CF /* ChatsViewModel.swift */; };
-		787FDB2E222ABC7A0010F3CF /* BaseChatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FDB2D222ABC7A0010F3CF /* BaseChatsViewModel.swift */; };
+		787FDB2C222ABBB40010F3CF /* IChatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FDB2B222ABBB40010F3CF /* IChatsViewModel.swift */; };
+		787FDB2E222ABC7A0010F3CF /* ChatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FDB2D222ABC7A0010F3CF /* ChatsViewModel.swift */; };
 		959F5CD1D9E0A92C95CB2EA2 /* Pods_VKMessageModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77051203B9AA4D9DA749DA39 /* Pods_VKMessageModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30FF4CF37772E956BC85390C /* Pods-VKMessageModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKMessageModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule.release.xcconfig"; sourceTree = "<group>"; };
 		77051203B9AA4D9DA749DA39 /* Pods_VKMessageModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKMessageModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		781268DE223021A900DE91B4 /* UIViewController+StoryboardID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+StoryboardID.swift"; sourceTree = "<group>"; };
+		781268E0223021D100DE91B4 /* StoryboardName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardName.swift; sourceTree = "<group>"; };
+		781268E4223022F700DE91B4 /* IChatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IChatsService.swift; sourceTree = "<group>"; };
+		781268E62230232D00DE91B4 /* ServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAssembly.swift; sourceTree = "<group>"; };
+		781268E82230235900DE91B4 /* ChatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsService.swift; sourceTree = "<group>"; };
 		7824C8EB2229574C00D862DE /* VKMessageModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKMessageModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7824C8EE2229574C00D862DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7824C8F52229574D00D862DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7824C8F82229574D00D862DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7824C8FA2229574D00D862DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7824C90722295D6C00D862DE /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		7824C90922295F3700D862DE /* LaunchAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAppManager.swift; sourceTree = "<group>"; };
-		7824C90B22295F4B00D862DE /* BaseLaunchAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLaunchAppManager.swift; sourceTree = "<group>"; };
-		7824C90F2229602100D862DE /* ChatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsRouter.swift; sourceTree = "<group>"; };
-		7824C9112229602E00D862DE /* BaseChatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseChatsRouter.swift; sourceTree = "<group>"; };
+		7824C90922295F3700D862DE /* ILaunchAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILaunchAppManager.swift; sourceTree = "<group>"; };
+		7824C90B22295F4B00D862DE /* LaunchAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAppManager.swift; sourceTree = "<group>"; };
+		7824C90F2229602100D862DE /* IChatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IChatsRouter.swift; sourceTree = "<group>"; };
+		7824C9112229602E00D862DE /* ChatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsRouter.swift; sourceTree = "<group>"; };
 		7824C9162229666000D862DE /* ApplicationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
 		7824C9182229687100D862DE /* ManagerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAssembly.swift; sourceTree = "<group>"; };
 		7824C91A222968E000D862DE /* RouterAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterAssembly.swift; sourceTree = "<group>"; };
 		787FDB25222ABB1C0010F3CF /* Chats.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chats.storyboard; sourceTree = "<group>"; };
 		787FDB27222ABB410010F3CF /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
-		787FDB2B222ABBB40010F3CF /* ChatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewModel.swift; sourceTree = "<group>"; };
-		787FDB2D222ABC7A0010F3CF /* BaseChatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseChatsViewModel.swift; sourceTree = "<group>"; };
+		787FDB2B222ABBB40010F3CF /* IChatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IChatsViewModel.swift; sourceTree = "<group>"; };
+		787FDB2D222ABC7A0010F3CF /* ChatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewModel.swift; sourceTree = "<group>"; };
 		80B18A0C0E0B1EA754682ABF /* Pods-VKMessageModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKMessageModule.release.xcconfig"; path = "Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule.release.xcconfig"; sourceTree = "<group>"; };
 		AE7BAD440A43BF913B8955CE /* Pods-VKMessageModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKMessageModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule.debug.xcconfig"; sourceTree = "<group>"; };
 		D7D76CB0B8DE17BB2D472EBF /* Pods-VKMessageModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKMessageModule.debug.xcconfig"; path = "Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +78,32 @@
 				77051203B9AA4D9DA749DA39 /* Pods_VKMessageModule.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		781268DD2230219500DE91B4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				781268E0223021D100DE91B4 /* StoryboardName.swift */,
+				781268DE223021A900DE91B4 /* UIViewController+StoryboardID.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		781268E2223022BA00DE91B4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				781268E3223022D000DE91B4 /* ChatsService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		781268E3223022D000DE91B4 /* ChatsService */ = {
+			isa = PBXGroup;
+			children = (
+				781268E4223022F700DE91B4 /* IChatsService.swift */,
+				781268E82230235900DE91B4 /* ChatsService.swift */,
+			);
+			path = ChatsService;
 			sourceTree = "<group>";
 		};
 		7824C8E22229574C00D862DE = {
@@ -108,6 +144,7 @@
 				7824C90622295D4900D862DE /* Assemblies */,
 				7824C90522295D3500D862DE /* Manager */,
 				7824C90D22295F9C00D862DE /* Routers */,
+				781268E2223022BA00DE91B4 /* Services */,
 			);
 			path = "Business logic";
 			sourceTree = "<group>";
@@ -122,6 +159,7 @@
 		7824C90222295A7C00D862DE /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				781268DD2230219500DE91B4 /* Common */,
 				787FDB24222ABAAD0010F3CF /* Chats */,
 			);
 			path = Presentation;
@@ -147,8 +185,8 @@
 		7824C90522295D3500D862DE /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				7824C90922295F3700D862DE /* LaunchAppManager.swift */,
-				7824C90B22295F4B00D862DE /* BaseLaunchAppManager.swift */,
+				7824C90922295F3700D862DE /* ILaunchAppManager.swift */,
+				7824C90B22295F4B00D862DE /* LaunchAppManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -159,6 +197,7 @@
 				7824C9162229666000D862DE /* ApplicationAssembly.swift */,
 				7824C9182229687100D862DE /* ManagerAssembly.swift */,
 				7824C91A222968E000D862DE /* RouterAssembly.swift */,
+				781268E62230232D00DE91B4 /* ServiceAssembly.swift */,
 			);
 			path = Assemblies;
 			sourceTree = "<group>";
@@ -174,8 +213,8 @@
 		7824C90E22295FF300D862DE /* ChatsRouter */ = {
 			isa = PBXGroup;
 			children = (
-				7824C90F2229602100D862DE /* ChatsRouter.swift */,
-				7824C9112229602E00D862DE /* BaseChatsRouter.swift */,
+				7824C90F2229602100D862DE /* IChatsRouter.swift */,
+				7824C9112229602E00D862DE /* ChatsRouter.swift */,
 			);
 			path = ChatsRouter;
 			sourceTree = "<group>";
@@ -193,8 +232,8 @@
 		787FDB29222ABB460010F3CF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				787FDB2B222ABBB40010F3CF /* ChatsViewModel.swift */,
-				787FDB2D222ABC7A0010F3CF /* BaseChatsViewModel.swift */,
+				787FDB2B222ABBB40010F3CF /* IChatsViewModel.swift */,
+				787FDB2D222ABC7A0010F3CF /* ChatsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -306,7 +345,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -317,7 +356,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D17B24A119C91BCE042DC07B /* [CP] Check Pods Manifest.lock */ = {
@@ -350,17 +389,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				7824C90822295D6C00D862DE /* App.swift in Sources */,
-				7824C9122229602E00D862DE /* BaseChatsRouter.swift in Sources */,
+				781268E72230232D00DE91B4 /* ServiceAssembly.swift in Sources */,
+				7824C9122229602E00D862DE /* ChatsRouter.swift in Sources */,
 				787FDB28222ABB410010F3CF /* ChatsViewController.swift in Sources */,
+				781268E5223022F700DE91B4 /* IChatsService.swift in Sources */,
 				7824C8EF2229574C00D862DE /* AppDelegate.swift in Sources */,
 				7824C9192229687100D862DE /* ManagerAssembly.swift in Sources */,
 				7824C91B222968E000D862DE /* RouterAssembly.swift in Sources */,
-				7824C90A22295F3700D862DE /* LaunchAppManager.swift in Sources */,
+				781268E92230235900DE91B4 /* ChatsService.swift in Sources */,
+				7824C90A22295F3700D862DE /* ILaunchAppManager.swift in Sources */,
 				7824C9172229666000D862DE /* ApplicationAssembly.swift in Sources */,
-				787FDB2C222ABBB40010F3CF /* ChatsViewModel.swift in Sources */,
-				787FDB2E222ABC7A0010F3CF /* BaseChatsViewModel.swift in Sources */,
-				7824C9102229602100D862DE /* ChatsRouter.swift in Sources */,
-				7824C90C22295F4B00D862DE /* BaseLaunchAppManager.swift in Sources */,
+				781268DF223021A900DE91B4 /* UIViewController+StoryboardID.swift in Sources */,
+				781268E1223021D100DE91B4 /* StoryboardName.swift in Sources */,
+				787FDB2C222ABBB40010F3CF /* IChatsViewModel.swift in Sources */,
+				787FDB2E222ABC7A0010F3CF /* ChatsViewModel.swift in Sources */,
+				7824C9102229602100D862DE /* IChatsRouter.swift in Sources */,
+				7824C90C22295F4B00D862DE /* LaunchAppManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
