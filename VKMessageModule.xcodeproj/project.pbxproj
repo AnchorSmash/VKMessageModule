@@ -18,6 +18,10 @@
 		7824C9172229666000D862DE /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C9162229666000D862DE /* ApplicationAssembly.swift */; };
 		7824C9192229687100D862DE /* ManagerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C9182229687100D862DE /* ManagerAssembly.swift */; };
 		7824C91B222968E000D862DE /* RouterAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824C91A222968E000D862DE /* RouterAssembly.swift */; };
+		787FDB26222ABB1C0010F3CF /* Chats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787FDB25222ABB1C0010F3CF /* Chats.storyboard */; };
+		787FDB28222ABB410010F3CF /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FDB27222ABB410010F3CF /* ChatsViewController.swift */; };
+		787FDB2C222ABBB40010F3CF /* ChatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FDB2B222ABBB40010F3CF /* ChatsViewModel.swift */; };
+		787FDB2E222ABC7A0010F3CF /* BaseChatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FDB2D222ABC7A0010F3CF /* BaseChatsViewModel.swift */; };
 		959F5CD1D9E0A92C95CB2EA2 /* Pods_VKMessageModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77051203B9AA4D9DA749DA39 /* Pods_VKMessageModule.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +40,10 @@
 		7824C9162229666000D862DE /* ApplicationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
 		7824C9182229687100D862DE /* ManagerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAssembly.swift; sourceTree = "<group>"; };
 		7824C91A222968E000D862DE /* RouterAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterAssembly.swift; sourceTree = "<group>"; };
+		787FDB25222ABB1C0010F3CF /* Chats.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chats.storyboard; sourceTree = "<group>"; };
+		787FDB27222ABB410010F3CF /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		787FDB2B222ABBB40010F3CF /* ChatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewModel.swift; sourceTree = "<group>"; };
+		787FDB2D222ABC7A0010F3CF /* BaseChatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseChatsViewModel.swift; sourceTree = "<group>"; };
 		80B18A0C0E0B1EA754682ABF /* Pods-VKMessageModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKMessageModule.release.xcconfig"; path = "Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule.release.xcconfig"; sourceTree = "<group>"; };
 		D7D76CB0B8DE17BB2D472EBF /* Pods-VKMessageModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKMessageModule.debug.xcconfig"; path = "Target Support Files/Pods-VKMessageModule/Pods-VKMessageModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +120,7 @@
 		7824C90222295A7C00D862DE /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				787FDB24222ABAAD0010F3CF /* Chats */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -167,6 +176,25 @@
 				7824C9112229602E00D862DE /* BaseChatsRouter.swift */,
 			);
 			path = ChatsRouter;
+			sourceTree = "<group>";
+		};
+		787FDB24222ABAAD0010F3CF /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				787FDB25222ABB1C0010F3CF /* Chats.storyboard */,
+				787FDB27222ABB410010F3CF /* ChatsViewController.swift */,
+				787FDB29222ABB460010F3CF /* ViewModel */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		787FDB29222ABB460010F3CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				787FDB2B222ABBB40010F3CF /* ChatsViewModel.swift */,
+				787FDB2D222ABC7A0010F3CF /* BaseChatsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FCB2C18CF7F24E217CE4D5D7 /* Pods */ = {
@@ -239,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787FDB26222ABB1C0010F3CF /* Chats.storyboard in Resources */,
 				7824C8F92229574D00D862DE /* LaunchScreen.storyboard in Resources */,
 				7824C8F62229574D00D862DE /* Assets.xcassets in Resources */,
 			);
@@ -318,11 +347,14 @@
 			files = (
 				7824C90822295D6C00D862DE /* App.swift in Sources */,
 				7824C9122229602E00D862DE /* BaseChatsRouter.swift in Sources */,
+				787FDB28222ABB410010F3CF /* ChatsViewController.swift in Sources */,
 				7824C8EF2229574C00D862DE /* AppDelegate.swift in Sources */,
 				7824C9192229687100D862DE /* ManagerAssembly.swift in Sources */,
 				7824C91B222968E000D862DE /* RouterAssembly.swift in Sources */,
 				7824C90A22295F3700D862DE /* LaunchAppManager.swift in Sources */,
 				7824C9172229666000D862DE /* ApplicationAssembly.swift in Sources */,
+				787FDB2C222ABBB40010F3CF /* ChatsViewModel.swift in Sources */,
+				787FDB2E222ABC7A0010F3CF /* BaseChatsViewModel.swift in Sources */,
 				7824C9102229602100D862DE /* ChatsRouter.swift in Sources */,
 				7824C90C22295F4B00D862DE /* BaseLaunchAppManager.swift in Sources */,
 			);
