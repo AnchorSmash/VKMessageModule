@@ -11,8 +11,8 @@ import Swinject
 final class RouterAssembly: Assembly {
 
     func assemble(container: Container) {
-        container.register(ChatsRouter.self) { resolver in
-            BaseChatsRouter(resolver: resolver)
+        container.register(IChatsRouter.self) { resolver in
+            ChatsRouter(resolver: resolver)
             }.inObjectScope(.container)
     }
 

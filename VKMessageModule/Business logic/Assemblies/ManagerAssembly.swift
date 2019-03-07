@@ -11,8 +11,8 @@ import Swinject
 final class ManagerAssembly: Assembly {
 
     func assemble(container: Container) {
-        container.register(LaunchAppManager.self) { resolver in
-            BaseLaunchAppManager(rootRouter: resolver.resolve(ChatsRouter.self)!)
+        container.register(ILaunchAppManager.self) { resolver in
+            LaunchAppManager(rootRouter: resolver.resolve(IChatsRouter.self)!)
             }.inObjectScope(.container)
     }
 

@@ -8,8 +8,17 @@
 
 import UIKit
 
-protocol LaunchAppManager: class {
+final class LaunchAppManager: ILaunchAppManager {
 
-    func generateWindow() -> UIWindow
+    private var rootRouter: IChatsRouter
+
+    init(rootRouter: IChatsRouter) {
+        self.rootRouter = rootRouter
+    }
+
+    func launch(in window: UIWindow) {
+        window.rootViewController = rootRouter.rootViewController
+        window.makeKeyAndVisible()
+    }
 
 }
